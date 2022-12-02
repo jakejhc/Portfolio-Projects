@@ -1,4 +1,4 @@
-## In this folder, I compiled a number of example projects that I have worked on, which involves various regression, classification, and deep learning algorithms.
+## In this folder, I compiled a number of my example projects that involve various regression, classification, and deep learning algorithms.
 
 
 ## <font color='blue'> Project T and T2: 
