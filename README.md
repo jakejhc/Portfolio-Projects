@@ -16,6 +16,6 @@ A NLP project to classify tweeters depending upon its likelihood of being about 
 
 ## Computer vision:
 ### 1. U-net for segmentation: 
-   Tuning a U-net architecture to perform semantic segmentation for self-driving cars.
+   Tuning a U-net architecture to perform semantic segmentation for self-driving cars. Results are evaluated by trainin/validation accuracy, training/validation loss, as well as Recall, Precision, Specificity, IoU, TDR, F1-Score of each individual class.
 ### 2. Object detect: 
    Using a pretrained Detectron 2 for instance segmentation, panoptic, and keypoint monitoring, along with YOLO (You Only Look Once) detection. YOLO v3 preprocessing includes getting configuration and weights, setting minimum probability to eliminate weak predictions, preview 2D image input, returning 4D blob after mean substraction, normalization, and RB channel swapping, forward pass the blob to the network, as well as configuring colors, bounding boxes, confidences and threshold for a list of predicted class labels.
