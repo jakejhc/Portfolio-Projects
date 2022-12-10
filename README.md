@@ -15,5 +15,7 @@ A time series project that aims to analyze the correlation between time and vari
 A NLP project to classify tweeters depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processing text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable larning rate, batch size, dense layer, dropout layer, and epoch.
 
 ## Computer vision:
-1. U-net for segmentation: Tuning a U-net architecture to perform semantic segmentation for self-driving cars.
-2. Object detect: Using a pretrained Detectron 2 for instance segmentation, panoptic, and keypoint monitoring, along with YOLO (You Only Look Once) detection. YOLO v3 preprocessing includes getting configuration and weights, setting minimum probability to eliminate weak predictions, preview 2D image input, returning 4D blob after mean substraction, normalization, and RB channel swapping, forward pass the blob to the network, as well as configuring colors, bounding boxes, confidences and threshold for a list of predicted class labels.
+### 1. U-net for segmentation: 
+   Tuning a U-net architecture to perform semantic segmentation for self-driving cars.
+### 2. Object detect: 
+   Using a pretrained Detectron 2 for instance segmentation, panoptic, and keypoint monitoring, along with YOLO (You Only Look Once) detection. YOLO v3 preprocessing includes getting configuration and weights, setting minimum probability to eliminate weak predictions, preview 2D image input, returning 4D blob after mean substraction, normalization, and RB channel swapping, forward pass the blob to the network, as well as configuring colors, bounding boxes, confidences and threshold for a list of predicted class labels.
