@@ -9,9 +9,6 @@ This project has the following purposes: 1. Evaluating the risk involved with an
 A project for solar power prediction. This analysis provides insights on renewable energy usage and maintenance, which are becoming more and more relevant in the age of electrical cars and global warming awareness.
 
 
-##  Time series (Project T and T2): 
-A time series project that aims to analyze the correlation between time and various energy related stocks. Data are imported from Yahoo Finance API or NYSE. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with some other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
-
 ## Twitter:
 A NLP project to classify tweeters depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processing text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable larning rate, batch size, dense layer, dropout layer, and epoch.
 
@@ -20,3 +17,7 @@ A NLP project to classify tweeters depending upon its likelihood of being about 
    Tuning a U-net architecture to perform semantic segmentation for self-driving cars. Results are evaluated by trainin/validation accuracy, training/validation loss, as well as Recall, Precision, Specificity, IoU, TDR, F1-Score of each individual class.
 ### 2. Object detect: 
    Using a pretrained Detectron 2 for instance segmentation, panoptic, and keypoint monitoring, along with YOLO (You Only Look Once) detection. YOLO v3 preprocessing includes getting configuration and weights, setting minimum probability to eliminate weak predictions, preview 2D image input, returning 4D blob after mean substraction, normalization, and RB channel swapping, forward pass the blob to the network, as well as configuring colors, bounding boxes, confidences and threshold for a list of predicted class labels.
+
+
+##  Time series (Project T and T2): 
+A time series project that aims to analyze the correlation between time and various energy related stocks. Data are imported from Yahoo Finance API or NYSE. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with some other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
