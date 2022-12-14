@@ -10,7 +10,7 @@ A project for solar power prediction. This analysis provides insights on renewab
 
 
 ## Twitter:
-A NLP project to classify tweeters depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processing text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
+A NLP project to classify texts (in this case, tweeters) depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processed text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
 
 ## Computer vision:
 ### 1. U-net for segmentation: 
@@ -20,4 +20,4 @@ A NLP project to classify tweeters depending upon its likelihood of being about 
 
 
 ##  Time series (Project T and T2): 
-A time series project that aims to analyze the correlation between time and any time-dependent variables. Data are imported from YFinance API or elsewhere. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with some other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
+A time series project that aims to analyze the correlation between time and any time-dependent variables. The example data are imported from YFinance API and elsewhere. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with some other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
