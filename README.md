@@ -10,7 +10,7 @@ A project for solar power prediction. This analysis provides insights on renewab
 
 
 ## Twitter:
-A NLP project to classify tweeters depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processing text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable larning rate, batch size, dense layer, dropout layer, and epoch.
+A NLP project to classify tweeters depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processing text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
 
 ## Computer vision:
 ### 1. U-net for segmentation: 
