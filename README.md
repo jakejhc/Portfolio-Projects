@@ -20,4 +20,4 @@ A NLP project to classify tweeters depending upon its likelihood of being about 
 
 
 ##  Time series (Project T and T2): 
-A time series project that aims to analyze the correlation between time and various energy related stocks. Data are imported from Yahoo Finance API or NYSE. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with some other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
+A time series project that aims to analyze the correlation between time and any time-dependent variables. Data are imported from YFinance API or elsewhere. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with some other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
