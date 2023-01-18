@@ -10,13 +10,15 @@
 
 ##   2. Optimization and regression:
    The notebook titled "Photovoltaic" addresses solar power prediction. This analysis provides insights on renewable energy usage and maintenance, which are becoming more and more relevant in the age of electrical cars and global warming awareness.
-
+   The notebook titled "SEIE" builds an Soft Electronics Search Engine (SEIE). Random Forest, XGboost, and polynomial models are deployed to optimize soft electronics. Features engineered from ratios or differences of corresponding physical and chemical characteristics. 
 
 ## 3. Natural Language Processing (NLP):
 ### 3.1. ARXIV abstract Clustering
    Unsupervised learning is important for clustering and mining scientific literatures. ARXIV from Cornell University is a collection of over 2 million open scientific papers. K-means, t-SNE and UMAP are used to perform interactive clustering based on abstracts of ARXIV literatures, to complement some other open-source scientific literature mining tools such as Carrot2 and to provide large-scale scientific literature study and topic trend research.
 ### 3.2. Twitter:
    A NLP project to classify texts (in this case, tweeters) depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processed text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
+### 3.3 Downloading comments from Youtube videos
+   Examples are given to download comments from Deep Learning videos for future NLP analysis.
 
 ## 4. Computer vision (CV):
 ### 4.1. U-net for segmentation: 
