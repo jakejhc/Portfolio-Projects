@@ -3,7 +3,7 @@
 
 
 ##   1. Risk Analysis:
-   This project has the following purposes: 1. Evaluating the risk involved with an event. 2. Performing classification and predicting class labels based on risks and other factors. 3. Exploring metrics and methods towards accurate risk management. Data wrangling includes label encoding, log transformation, data balancing, and scaling. Predictions by LGR, Linear Discriminant Analysis, KNN, CART, NB, RF, SVM, XGBM, and LGBM are compared.
+   This project has the following purposes: 1. Evaluating the risk involved with an event. 2. Performing classification based on risk. 3. Exploring metrics and methods towards accurate risk management. Data wrangling includes label encoding, log transformation, data balancing, and scaling. Predictions by LGR, Linear Discriminant Analysis, KNN, CART, NB, RF, SVM, XGBM, and LGBM are compared.
 
 ##   2. Optimization and regression:
    The notebook titled "Photovoltaic" addresses solar power prediction. This analysis provides insights on renewable energy usage and maintenance, which are becoming more and more relevant in the age of electrical cars and global warming awareness.
