@@ -2,8 +2,11 @@
 
 
 
-##   1. Risk Analysis:
-   This project has the following purposes: 1. Evaluating the risk involved with an event. 2. Performing classification based on risk. 3. Exploring metrics and methods towards accurate risk management. Data wrangling includes label encoding, log transformation, data balancing, and scaling. Predictions by LGR, Linear Discriminant Analysis, KNN, CART, NB, RF, SVM, XGBM, and LGBM are compared.
+##   1. Classification:
+### 1.1 Risk Analysis
+   The purpose of the notebook titled "Risk Analysis" is to perform classification based on risk. It also explores metrics and methods towards accurate risk management. Data wrangling includes label encoding, log transformation, data balancing, and scaling. Predictions by LGR, Linear Discriminant Analysis, KNN, CART, NB, RF, SVM, XGBM, and LGBM are compared.
+### 1.2 Satisfaction Analysis
+   Olist is a Brazilian ecommerce platform. Seller, customer, order, and product information are provided by Olist and used to predict customer satisfaction, which can be critical to the growth and success of any ecommerce platforms. Many of the original features did not correlate well with the target (class label 1 for satisfaction). Instead, the frequency of purchase by the same customer, seller popularity, time differences between purchasing stages, delivery speed, regional population and income are engineered as new features. Along with features such as product description length, product categories, seller state etc., these newly engineered features lead to much enhanced AUC-ROC scores of over 0.85. Logistic Regression and Random Forest Classifier generate satisfying F1 scores with 100k rows and 15 features. XGboost can bring the AUC-ROC and F1 score slightly higher with proper hyperparameter tuning. Time lapse videos of sales map are produced by using the Python Folium library. Recency, Frequency, and Monetary (RFM) analysis is used to perform customer segmentation with individualized customer relationship management (CRM) strategies.
 
 ##   2. Optimization and regression:
    The notebook titled "Photovoltaic" addresses solar power prediction. This analysis provides insights on renewable energy usage and maintenance, which are becoming more and more relevant in the age of electrical cars and global warming awareness.
@@ -25,5 +28,3 @@
 ##  5. Time series: 
    Time series analysis aims to analyze the correlation between time and any time-dependent variables. In the notebooks titled "Project T" and "Project T2", the sample data are imported from YFinance API and elsewhere. LSTM with different optimizers and parameters are able to make predictions with reasonably good scores, along with other time seriels models. One of the notebook uses Keras, and the other uses Tensorflow.
    
-## 6. Olist Customer Analysis
-   Olist is a Brazilian ecommerce platform. Seller, customer, order, and product information are provided by Olist and used to predict customer satisfaction, which can be critical to the growth and success of any ecommerce platforms. Many of the original features did not correlate well with the target (class label 1 for satisfaction). Instead, the frequency of purchase by the same customer, seller popularity, time differences between purchasing stages, delivery speed, regional population and income are engineered as new features. Along with features such as product description length, product categories, seller state etc., these newly engineered features lead to much enhanced AUC-ROC scores of over 0.85. Logistic Regression and Random Forest Classifier generate satisfying F1 scores with 100k rows and 15 features. XGboost can bring the AUC-ROC and F1 score slightly higher with proper hyperparameter tuning. Time lapse videos of sales map are produced by using the Python Folium library. Recency, Frequency, and Monetary (RFM) analysis is used to perform customer segmentation with individualized customer relationship management (CRM) strategies.
