@@ -9,8 +9,11 @@ This project has the following purposes: 1. Evaluating the risk involved with an
 A project for solar power prediction. This analysis provides insights on renewable energy usage and maintenance, which are becoming more and more relevant in the age of electrical cars and global warming awareness.
 
 
-## Twitter:
-A NLP project to classify texts (in this case, tweeters) depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processed text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
+## NLP:
+### 1. ARXIV abstract Clustering
+   Unsupervised learning is important for clustering and mining scientific literatures. ARXIV from Cornell University is a collection of over 2 million open scientific papers. K-means, t-SNE and UMAP are used to perform interactive clustering based on abstracts of ARXIV literatures, to complement some other open-source scientific literature mining tools such as Carrot2 and to provide large-scale scientific literature study and topic trend research.
+### 2. Twitter:
+   A NLP project to classify texts (in this case, tweeters) depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processed text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
 
 ## Computer vision:
 ### 1. U-net for segmentation: 
