@@ -9,7 +9,9 @@
    Olist is a Brazilian ecommerce platform. Seller, customer, order, and product information are provided by Olist and used to predict customer satisfaction, which can be critical to the growth and success of any ecommerce platforms. Many of the original features did not correlate well with the target (class label 1 for satisfaction). Instead, the frequency of purchase by the same customer, seller popularity, time differences between purchasing stages, delivery speed, regional population and income are engineered as new features. Along with features such as product description length, product categories, seller state etc., these newly engineered features lead to much enhanced AUC-ROC scores of over 0.85. Logistic Regression and Random Forest Classifier generate satisfying F1 scores with 100k rows and 15 features. XGboost can bring the AUC-ROC and F1 score slightly higher with proper hyperparameter tuning. Time lapse videos of sales map are produced by using the Python Folium library. Recency, Frequency, and Monetary (RFM) analysis is used to perform customer segmentation with individualized customer relationship management (CRM) strategies.
 
 ##   2. Optimization and regression:
+###  2.1 Photovoltaic
    The notebook titled "Photovoltaic" addresses solar power prediction. This analysis provides insights on renewable energy usage and maintenance, which are becoming more and more relevant in the age of electrical cars and global warming awareness.
+###  2.2 Soft Electronics
    The notebook titled "SEIE" builds an Soft Electronics Search Engine (SEIE). Random Forest, XGboost, and polynomial models are deployed to optimize soft electronics. Features engineered from ratios or differences of corresponding physical and chemical characteristics. 
 
 ## 3. Natural Language Processing (NLP):
