@@ -21,6 +21,8 @@
    A NLP project to classify texts (in this case, tweeters) depending upon its likelihood of being about a real disaster. Data cleaning follows: a. raw text corpus -> b. processed text -> c. tokenized text -> d. corpus vocabulary -> e. text representation. Matrix factorization based GLoVe embeddings are used before feeding into a simple LSTM, a dual-LSTM, and a BERT model with variable learning rate, batch size, dense layer, dropout layer, and epoch.
 ### 3.3 Downloading comments from Youtube videos
    Examples are given to download comments from Deep Learning videos for future NLP analysis.
+### 3.4 SciBot
+   A chatbot to assist scientific research?
 
 ## 4. Computer vision (CV):
 ### 4.1. U-net for segmentation: 
